@@ -18,6 +18,7 @@ frog.speed(0)
 # Score
 score = 0
 scoreDisplay = turtle.Turtle()
+scoreDisplay.color("white")
 scoreDisplay.hideturtle()
 scoreDisplay.penup()
 scoreDisplay.goto(0, 260)
@@ -26,6 +27,7 @@ scoreDisplay.write("Score: 0", align="center", font=("Arial", 24, "normal"))
 # Timer
 timeLimit = 30
 timerDisplay = turtle.Turtle()
+timerDisplay.color("white")
 timerDisplay.hideturtle()
 timerDisplay.penup()
 timerDisplay.goto(0, 230)
