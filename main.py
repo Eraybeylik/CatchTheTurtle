@@ -4,7 +4,7 @@ import random
 # Screen
 gameWindow = turtle.Screen()
 gameWindow.title("Catch The Turtle")
-gameWindow.bgcolor("red")
+gameWindow.bgcolor("light blue")
 gameWindow.setup(width=600, height=600)
 
 
